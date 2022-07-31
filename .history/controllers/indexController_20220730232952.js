@@ -16,8 +16,8 @@ returns {"success": true} json object
 */
 module.exports.apiPing = (req, res) => {
   const success = true;
-  const successful="succesful";
-  return res.json({ successful });
+
+  return res.json({ successessful });
 };
 
 
