@@ -16,7 +16,7 @@ returns {"success": true} json object
 */
 module.exports.apiPing = (req, res) => {
   const success = true;
-  const successful="succesful";
+  const successful="dapo";
   return res.json({ successful });
 };
 
